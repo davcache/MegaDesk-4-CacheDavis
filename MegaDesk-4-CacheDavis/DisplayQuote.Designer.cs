@@ -1,6 +1,6 @@
-﻿namespace MegaDesk_3_CacheDavis
+﻿namespace MegaDesk_4_CacheDavis
 {
-    partial class AddQuote
+    partial class DisplayQuote
     {
         /// <summary>
         /// Required designer variable.
@@ -28,34 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.backBtn = new System.Windows.Forms.Button();
+            this.displayBackBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // backBtn
+            // displayBackBtn
             // 
-            this.backBtn.Location = new System.Drawing.Point(304, 381);
-            this.backBtn.Name = "backBtn";
-            this.backBtn.Size = new System.Drawing.Size(115, 37);
-            this.backBtn.TabIndex = 0;
-            this.backBtn.Text = "Back";
-            this.backBtn.UseVisualStyleBackColor = true;
-            this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
+            this.displayBackBtn.Location = new System.Drawing.Point(314, 384);
+            this.displayBackBtn.Name = "displayBackBtn";
+            this.displayBackBtn.Size = new System.Drawing.Size(115, 37);
+            this.displayBackBtn.TabIndex = 0;
+            this.displayBackBtn.Text = "Back";
+            this.displayBackBtn.UseVisualStyleBackColor = true;
+            this.displayBackBtn.Click += new System.EventHandler(this.displayBackBtn_Click);
             // 
-            // AddQuote
+            // DisplayQuote
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.backBtn);
-            this.Name = "AddQuote";
-            this.Text = "AddQuote";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AddQuote_FormClosed);
+            this.Controls.Add(this.displayBackBtn);
+            this.Name = "DisplayQuote";
+            this.Text = "Display Quote";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.DisplayQuote_FormClosed);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button backBtn;
+        private System.Windows.Forms.Button displayBackBtn;
     }
 }

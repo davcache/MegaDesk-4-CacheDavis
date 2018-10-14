@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MegaDesk_3_CacheDavis.Properties
+namespace MegaDesk_4_CacheDavis.Properties
 {
 
 
