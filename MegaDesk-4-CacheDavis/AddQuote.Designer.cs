@@ -41,6 +41,8 @@
             this.comMaterial = new System.Windows.Forms.ComboBox();
             this.lblShipping = new System.Windows.Forms.Label();
             this.comboBoxShipping = new System.Windows.Forms.ComboBox();
+            this.lblShipMsg = new System.Windows.Forms.Label();
+            this.btnAddQuote = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownWidth)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownDepth)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownDrawer)).BeginInit();
@@ -48,7 +50,7 @@
             // 
             // backBtn
             // 
-            this.backBtn.Location = new System.Drawing.Point(304, 381);
+            this.backBtn.Location = new System.Drawing.Point(393, 381);
             this.backBtn.Name = "backBtn";
             this.backBtn.Size = new System.Drawing.Size(115, 37);
             this.backBtn.TabIndex = 0;
@@ -174,11 +176,31 @@
             this.comboBoxShipping.Size = new System.Drawing.Size(121, 21);
             this.comboBoxShipping.TabIndex = 12;
             // 
+            // lblShipMsg
+            // 
+            this.lblShipMsg.AutoSize = true;
+            this.lblShipMsg.Location = new System.Drawing.Point(308, 253);
+            this.lblShipMsg.Name = "lblShipMsg";
+            this.lblShipMsg.Size = new System.Drawing.Size(139, 13);
+            this.lblShipMsg.TabIndex = 13;
+            this.lblShipMsg.Text = "Normal Production 14 Days.";
+            // 
+            // btnAddQuote
+            // 
+            this.btnAddQuote.Location = new System.Drawing.Point(260, 381);
+            this.btnAddQuote.Name = "btnAddQuote";
+            this.btnAddQuote.Size = new System.Drawing.Size(115, 37);
+            this.btnAddQuote.TabIndex = 14;
+            this.btnAddQuote.Text = "Add Quote";
+            this.btnAddQuote.UseVisualStyleBackColor = true;
+            // 
             // AddQuote
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnAddQuote);
+            this.Controls.Add(this.lblShipMsg);
             this.Controls.Add(this.comboBoxShipping);
             this.Controls.Add(this.lblShipping);
             this.Controls.Add(this.comMaterial);
@@ -219,5 +241,7 @@
         private System.Windows.Forms.ComboBox comMaterial;
         private System.Windows.Forms.Label lblShipping;
         private System.Windows.Forms.ComboBox comboBoxShipping;
+        private System.Windows.Forms.Label lblShipMsg;
+        private System.Windows.Forms.Button btnAddQuote;
     }
 }

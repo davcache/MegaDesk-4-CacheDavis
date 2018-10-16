@@ -15,6 +15,15 @@ namespace MegaDesk_4_CacheDavis
         public AddQuote()
         {
             InitializeComponent();
+            //set Width min and max
+            numericUpDownWidth.Minimum = 24;
+            numericUpDownWidth.Maximum = 96;
+            //set depth min and max
+            numericUpDownDepth.Minimum = 12;
+            numericUpDownDepth.Maximum = 48;
+            //set number of drawers
+            numericUpDownDrawer.Minimum = 0;
+            numericUpDownDrawer.Maximum = 7;
 
             var materials = new List<Desk.DesktopMaterial>();
 
